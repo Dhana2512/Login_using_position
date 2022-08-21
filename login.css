@@ -90,11 +90,7 @@ html,body{
     color:#ababab;
     font-size: 13px;
 }
-.icon1{
-    position: relative;
-    left: 51px;
-    color:grey;
-}
+
 form[name="signup-form"] input{
     background-color: #ecf8e8;
     border: none;
@@ -113,6 +109,12 @@ form[name="signup-form"] .form-control{
     position: relative;
     width: 426px; 
     margin:auto;
+}
+
+.icon1{
+    position: relative;
+    left: 51px;
+    color:grey;
 }
 
 form[name="signup-form"] .form-control>.bi{
