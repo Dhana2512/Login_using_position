@@ -122,7 +122,7 @@ form[name="signup-form"] .form-control>.bi{
     color:#99a798;
     position: absolute;
     left:19px;
-    top:24px;
+    top:17px;
     transform: translateY(35%);
 }
 
@@ -136,4 +136,23 @@ form[name="signup-form"] button{
     border:1px solid #00ac7f;
     color:white;
     border-radius: 27px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.pad{
+    padding-top: 40px;
+}
+
+@media screen and (max-width:550px){
+    .sign_in-section {
+        display:none;
+      
+    }
+    form[name="signup-form"] .form-control{
+        width: 300px; 
+    }
+    .sign_up-section {
+        width: 100vw;
+    }
 }
